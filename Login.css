@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav bar */
+.Nav{
+    height: 70px;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Agdasima', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;
+
+}
+.Nav:hover{
+    transition-duration: 10s;
+    cursor: pointer;
+    background-color: orange;
+}
+/* Nav bar logo */
+.logo{
+    height: 70px;
+    width: 200px;
+}
+/* Nav bar content */
+.logo1{
+    
+    float: right;
+    padding: 14px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.logo1:hover{
+    background-color:crimson;
+    color: white
+}
+
+/* container1 start */
+.container1{
+    height: 850px;
+    width: 100%;
+    background: linear-gradient(dodgerblue,springgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Agdasima', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.parent1{
+    height: 700px;
+    width: 40%;
+    background-color: #0b2149;
+    margin-top: 80px;
+    color: white;
+    padding: 100px;
+
+}
+.parent2 button{
+   
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #21242c;
+}
+
+.g{
+    padding: 10px 86px 10px 10px;
+    margin-top: 80px;
+}
+.c{
+    padding: 10px 85px 10px 22px;
+    
+}
+.f{
+    padding: 10px 62px 10px 10px;
+}
+.a {
+     padding: 10px 100px 10px 10px;
+     
+
+}
+.gi{
+    color: red
+}
+.ci{
+    color: blue;
+    
+    
+    
+}
+.sr{
+    color: red;
+}
+button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.parent2 i {
+    margin-right: 70px;
+    font-size: 25px;
+}
+.parent1 a{
+    color: white;
+}
+.parent1 h1{
+    margin-bottom: 15px;
+
+}
+.parent1 p{
+    margin-bottom: 15px;
+}
+.parent2{
+    height: 700px;
+    width: 40%;
+    background-color: white;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sp1{
+    margin-right: 210px;
+    margin-top: 10px;
+}
+form{
+    
+    margin-top: 15px;
+}
+.b1{
+    padding: 8px 170px 8px 170px;
+    margin-top: 15px;
+    
+}
+form a{
+    text-decoration: none;
+}
+
+input{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 10px 196px 10px 22px;
+    
+}
+.a2{
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Kalam&family=Poppins:ital,wght@1,200;1,300&display=swap');
+
+
+
+/* Container9 start */
+.container9{
+    height: 600px;
+    width: 100%;
+    background-color: #0b2149;
+    display: flex;
+    font-family: 'Agdasima', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;
+
+}
+.box8{
+    height: 450px;
+    width: 200px;
+    
+    
+    
+}
+.box8 a{
+      text-decoration: none;
+      display: block;
+      margin-top: 20px;
+      margin-left: 20px;
+      color: white;
+}
+.parent3{
+    height: 600px;
+    width: 40%;
+    
+    padding: 40px;
+}
+
+
+
+.parent3 h3{
+    margin-top: 16px;
+    color: #8295ba;
+
+}
+.parent3 h4{
+    margin-top: 35px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    color: #8295ba;
+}
+.parent3 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.img6{
+    height: 60px;
+    width: 120px;
+    margin-left: 45px;
+}
+.a2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.parent3 span{
+    display: block;
+    margin-top: 20px;
+    color: #8295ba;
+   
+}
+.parent3 a{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.parent4{
+    height: 600px;
+    width: 60%;
+    background-color: #0b2149;
+    display: flex;
+    gap: 12px;
+}
+.parent4 i{
+    color: white;
+    font-size: 30px;
+    margin-top: 550px;
+    margin-right: 20px;
+}
+
+.parent3 a:hover{
+    text-decoration-line: underline;
+    
+}
+.box8 a:hover{
+    text-decoration: underline;
+}
+
+/* Container9 end */
+
+
+/* media query for tab screen start*/
+@media only screen and (min-width:550px) and (max-width:1000px) {
+    .container1{
+        width: 1000px;
+    }
+
+
+    .parent2{
+        width: 500px;
+    }
+    .parent2{
+        width: 500px;
+    }
+
+    .container9{
+        width: 1000px;
+     }
+}
+/* media query for tab screen* end */
+
+/* media query for mobile screen start */
+@media only screen and (min-width:300px) and (max-width:550px) {
+
+
+    .container1{
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+        
+    }
+    .parent1{
+        height: 400px;
+        width: 500px;
+        margin-top: 80px;
+        
+    }
+
+    .parent2{
+        height: 700px;
+        width: 500px;
+        margin: 0;
+    }
+
+    .container9{
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        
+     }
+
+     .parent4{
+        width: 720px;
+        display: flex;
+        justify-content: center;
+      }
+    .parent3{
+    
+    
+        
+        width: 720px;
+    }
+}
+/* media query for mobile screen end */
