@@ -133,7 +133,7 @@ font-family: 'Poppins', sans-serif;
  .child2:hover{
     cursor: pointer;
     background-color: yellow;
-    transition-duration: 10s;
+    /* transition-duration: 10s; */
     
     height: 500px; 
  }
@@ -155,16 +155,11 @@ font-family: 'Poppins', sans-serif;
     justify-content: center;
     grid-template-columns: auto auto auto;
     gap:20px;
-    transition: background-color 10s;
+    
     font-family: 'Agdasima', sans-serif;
 font-family: 'Kalam', cursive;
 font-family: 'Poppins', sans-serif;
 
-}
-.container2:hover{
-    background-color: goldenrod;
-   
-    cursor: pointer;
 }
 .heading2 p{
         margin-top: 8px;
@@ -180,9 +175,7 @@ font-family: 'Poppins', sans-serif;
     flex-direction: column;
     
 }
-.box1:hover{
-    background: linear-gradient(pink,orange);
-}
+
 .i1a{
     height: 100px;
     width: 100px;
@@ -232,16 +225,12 @@ font-family: 'Poppins', sans-serif;
         justify-content: center;
         align-items: center;
         gap: 25px; 
-        transition: background-color 10s;
+        
        
 
         
     }
-    .container3:hover{
-        
-        background-color: deeppink;
-        cursor: pointer;
-    }
+   
 
     .heading1{
         display: flex;
@@ -268,15 +257,12 @@ font-family: 'Poppins', sans-serif;
         justify-content: center;
         align-items: center;
         color: white;
-        transition: background-color 10s;
+        /* transition: background-color 10s; */
          
 
     }
-    .heading2:hover{
-            background-color: coral;
-            
-            cursor: pointer;
-    }
+    
+    
 
 
     .img2{
@@ -324,17 +310,13 @@ font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items:center;
     gap: 0px 20px;
-    transition: background-color 10s;
+  
     font-family: 'Agdasima', sans-serif;
 font-family: 'Kalam', cursive;
 font-family: 'Poppins', sans-serif;
 
    }
-   .container4:hover{
-        
-           background-color: coral;
-           cursor: pointer;
-   }
+
    .box3{
     height: 260px;
     width: 300px;
@@ -378,14 +360,11 @@ font-family: 'Poppins', sans-serif;
     width: 100%;
     background-color: blue;
     display: flex;
-    transition: background-color 10s;
+  
 
    }
-   .container5:hover{
-    background-color: plum;
-    cursor: pointer;
-    
-   }
+
+   
    .parent1{
     height: 400px;
     width: 50%;
@@ -448,19 +427,11 @@ font-family: 'Poppins', sans-serif;
     width: 100%;
     background-color: blue;
     display: flex;
-    transition: background-color 10s;
-
-
 }
-.container6:hover{
-    background-color:springgreen;
-    cursor: pointer;
 
-   }
 .box5{
     height: 500px;
     width: 50%;
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,14 +530,8 @@ font-family: 'Poppins', sans-serif;
         justify-content: center;
         align-items: center;
         gap: 12px;
-        transition: background-color 10s;
 
     }
-    .container8:hover{
-        background-color: navajowhite;
-        cursor: pointer;
-        
-       }
 
     .box7{
         height: 200px;
@@ -625,17 +590,12 @@ font-family: 'Poppins', sans-serif;
         width: 100%;
         background-color: #0b2149;
         display: flex;
-        transition: background-color 10s;
         font-family: 'Agdasima', sans-serif;
         font-family: 'Kalam', cursive;
         font-family: 'Poppins', sans-serif;
         
         
-    }.container9:hover{
-        background-color: steelblue;
-        cursor: pointer;
-        
-       }
+    }
 
     .box8{
         height: 450px;
