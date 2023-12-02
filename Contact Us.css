@@ -280,8 +280,36 @@ font-family: 'Poppins', sans-serif;
 
 /* media query for tab screen start*/
 @media only screen and (min-width:500px) and (max-width:920px) {
-    .Overall{
-        
+   
+   
+    .menu {
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 110vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: orangered;
+        transition: all 0.7s ease-in-out;
+    }
+    .menu li {
+        margin-top: 40px;
+    }
+    .menu li a {
+        padding: 10px;
+    }
+    .open-menu  {
+        display: block;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+    .Overall{  
         width: 920px;
         height: 600px;
         margin-top: 50px;
@@ -293,14 +321,39 @@ font-family: 'Poppins', sans-serif;
     
 }
 
-
-
-
 /* media query for tab screen end*/
 
 
 /* media query for mobile screen start */
 @media only screen and (min-width:300px) and (max-width:500px) {
+    
+    .menu{
+        margin-top: 90px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 220vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: orangered;
+        transition: all 0.7s ease-in-out;
+    }
+    .menu li {
+        margin-top: 40px;
+    }
+    .menu li a {
+        padding: 10px;
+    }
+    .open-menu  {
+        display: block;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
     .Overall{
         display: flex;
         flex-direction: column;
@@ -313,8 +366,6 @@ font-family: 'Poppins', sans-serif;
     .div1{
         background: linear-gradient(blue,yellowgreen);
         width: 500px;
-        
-       
 
     }
     .div2{
@@ -327,7 +378,6 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
         display: flex;
         flex-direction: column;
-        
      }
 
      .parent4{
@@ -336,8 +386,6 @@ font-family: 'Poppins', sans-serif;
         justify-content: center;
       }
     .parent3{
-    
-    
         
         width: 720px;
     }
