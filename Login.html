@@ -44,13 +44,26 @@
                 <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=160249463991765&kid_directed_site=1&app_id=160249463991765&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv10.0%2Fdialog%2Foauth%3Fapp_id%3D160249463991765%26cbt%3D1692255875158%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df1c1efe6f6c7558%2526domain%253Dwww.khanacademy.org%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.khanacademy.org%25252Ff10ae20226b574%2526relation%253Dopener%26client_id%3D160249463991765%26display%3Dpopup%26domain%3Dwww.khanacademy.org%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Fwww.khanacademy.org%252Flogin%26kid_directed_site%3Dtrue%26locale%3Den_US%26logger_id%3Df31f329388480a8%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df3fd08a27459cb8%2526domain%253Dwww.khanacademy.org%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.khanacademy.org%25252Ff10ae20226b574%2526relation%253Dopener%2526frame%253Df303004c5b863f%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26scope%3Demail%26sdk%3Djoey%26version%3Dv10.0%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3fd08a27459cb8%26domain%3Dwww.khanacademy.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.khanacademy.org%252Ff10ae20226b574%26relation%3Dopener%26frame%3Df303004c5b863f%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=en_GB&pl_dbl=0" target="_blank"><button class="f"><i class="fa-brands fa-facebook fa-fade ci"></i></i>Continue with Facebook </button></a>
                 <a href="https://appleid.apple.com/auth/authorize?client_id=org.khanacademy.www&redirect_uri=https%3A%2F%2Fwww.khanacademy.org%2Flogin%2Fapple%2Fcomplete&response_type=code%20id_token&state=%7B%22token%22%3A%226e2bdbf238ec72d4395f178b7c6c94982401231e%22%2C%22action%22%3A%22LOGIN%22%2C%22continue%22%3A%22%2Fredirect%3Fcontinue%3D%252F%22%2C%22role%22%3A%22%22%2C%22signup_codes%22%3A%22%22%7D&scope=email%20name&response_mode=web_message&frame_id=9b896de8-004a-4c64-bf07-428562498ebd&m=11&v=1.4.2" target="_blank"><button class="a"><i class="fa-brands fa-apple fa-shake" style="color: #121212;"></i></i> Continue with Apple</button></a>
                   <span class="sp1"><span class="sr">*</span>indicates a required field.</span>
-                   <form>
+                   <form id="form">
+                    <div>
                        <label>Email or username<span class="sr">*</span></label><br/>
-                       <input type="text"/><br/>
+                       <i class="fas fa-user"></i>
+                       <input type="text" name="username" id="username" placeholder="Username" /> <br/>
+                       <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+                       <div class="f1">
                        <label>Password<span class="sr">*</span></label><br/>
-                       <input type="password"/><br/>
+                       <i class="fas fa-lock"></i>
+                       <input type="password" name="password" id="password" placeholder="Password" /><br/>
+                       <i class="fas fa-exclamation-circle failure-icon"></i>
+                       <i class="far fa-check-circle success-icon"></i>
+                       <div class="error"></div>
+                    </div>
                     <a href="https://www.khanacademy.org/forgotpw">Forgot password?</a><br/>
-                    <button class="b1">Login</button>
+                    <button class="b1" id="btn" type="submit">Login</button>
 
                    </form>
                    <a class="a2" href="https://www.khanacademy.org/signup"> Create an accound </a>
@@ -127,5 +140,7 @@
             </div>
            </div>
             <!-- Container9 end -->
+
+            <script src="./Main project1.js"></script>
         </body>
 </html>
