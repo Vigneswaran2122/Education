@@ -586,7 +586,7 @@ font-family: 'Poppins', sans-serif;
 
     /* Container9 start */
     .container9{
-        height: 600px;
+        height: 680px;
         width: 100%;
         background-color: #0b2149;
         display: flex;
@@ -669,7 +669,7 @@ font-family: 'Poppins', sans-serif;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100vh;
+        height: 120vh;
         position: fixed;
         top: 0;
         right: -100%;

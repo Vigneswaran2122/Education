@@ -19,7 +19,7 @@ nav{
       list-style: none;
       position: relative;
       background-color: palevioletred;
-      padding: 10px 20px;
+      width: 100%;
    }
    .nav-bar h2{
      color: white;
@@ -62,7 +62,7 @@ nav{
       display: none;
    }
    .open-menu{
-      top: 50%;
+      top: 30%;
       right: 20px;
       transform: translateY(-50%);
    }
@@ -95,17 +95,18 @@ nav{
 
 
 .div1{
-    height: 600px;
+    height: 550px;
     width: 40%;
     /* background-color: white; */
     background: linear-gradient(rgba(119, 0, 255, 0.548),rgba(20, 3, 6, 0.856));
-    padding: 20px;
+    /* padding: 5px; */
     border-top-left-radius: 60px;
     
 }
 
 .div2{
-    height: 600px;
+    padding-top: 22px;
+    height: 550px;
     width: 40%;
     background-color: rgb(211, 195, 195);
     border-bottom-right-radius: 60px;
@@ -116,7 +117,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 730px;
+    height: 680px;
     width: 100%;
     margin-top: 60px;
     background: linear-gradient(violet,yellowgreen);
@@ -218,7 +219,7 @@ button:hover{
 
 /* Container9 start */
 .container9{
-    height: 600px;
+    height: 680px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
@@ -325,7 +326,7 @@ font-family: 'Poppins', sans-serif;
    
    
     .menu {
-        margin-top: 80px;
+        margin-top: 60px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -370,7 +371,7 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (min-width:300px) and (max-width:500px) {
     
     .menu{
-        margin-top: 90px;
+        margin-top: 70px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
