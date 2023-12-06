@@ -10,18 +10,17 @@ let username = id("username"),
    
     form.addEventListener("submit", (e) => {
         e.preventDefault();
-        engin(username, 0, "Username cannot be blank");
-        // engine(email, 1, "Email cannot be blank");
-        engin(password, 1, "Password cannot be blank");
+        engine(username, 0, "Username cannot be blank");
+        engine(password, 1, "Password cannot be blank");
     });
 
-    let engin = (id, serial, message) => {
+    let engine = (id, serial, message) => {
         if (id.value.trim() === "") {
         //   model2.style.display = "flex";
           errorMsg[serial].innerHTML = message;
           id.style.border = "2px solid red";
-          message.style.color = "red";
-         
+          
+          
           
           //icons
           failureIcon[serial].style.opacity = "1";
@@ -31,6 +30,7 @@ let username = id("username"),
         //   model.style.display = "flex";
            errorMsg[serial].innerHTML = "";
            id.style.border = "2px solid green";
+           
 
            //icons
           failureIcon[serial].style.opacity = "0";

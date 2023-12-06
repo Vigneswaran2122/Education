@@ -88,7 +88,7 @@ nav{
 
 /* container1 start */
 .container1{
-    height: 850px;
+    height: 950px;
     width: 100%;
     background: linear-gradient(dodgerblue,springgreen);
     display: flex;
@@ -101,7 +101,7 @@ font-family: 'Poppins', sans-serif;
 
 }
 .parent1{
-    height: 700px;
+    height: 800px;
     width: 40%;
     background-color: #0b2149;
     margin-top: 80px;
@@ -165,7 +165,7 @@ button:hover{
     margin-bottom: 15px;
 }
 .parent2{
-    height: 700px;
+    height: 800px;
     width: 40%;
     background-color: white;
     margin-top: 80px;
@@ -178,7 +178,7 @@ button:hover{
     margin-top: 10px;
 }
 form{
-    position: relative;
+    
     margin-top: 15px;
 }
 .b1{
@@ -195,7 +195,7 @@ input{
     margin-top: 10px;
     padding-left: 95px;
     padding: 10px 196px 10px 42px;
-    /* position: relative; */
+    
     
 }
 .a2{
@@ -203,37 +203,61 @@ input{
     margin-top: 20px;
 
 }
-.fa-user{
+.f2{
+    position: relative;
+}
+.f2 .fa-user{
    position: absolute;
    left: 10px;
   top:34px
    
    
 }
-.fa-lock{
+ .f1 .fa-lock{
     position: absolute;
    left: 10px;
-  top:118px
+  top:35px
    
 }
-.failure-icon{
+.f2 .failure-icon{
     position: absolute;
     top:35px;
     left: 378px;
 }
-.success-icon{
+ .f2 .success-icon{
     position: absolute;
     top:35px;
     left: 378px;
 }
+.f1{
+    position: relative;
+}
+
+
 .f1 .failure-icon,.success-icon {
     position: absolute;
-    top:115px;
+    top:35px;
     left: 378px;
 }
-/* .error{
-    color: red
-} */
+
+
+.failure-icon,.error{
+    color: red;
+}
+.success-icon {
+color:green;
+}
+.error{
+    font-size: 14.5px;
+    margin-bottom: 25px;
+}
+.success-icon,.failure-icon{
+    right: 0;
+    opacity: 0;
+}
+
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Kalam&family=Poppins:ital,wght@1,200;1,300&display=swap');
 
