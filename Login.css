@@ -88,7 +88,8 @@ nav{
 
 /* container1 start */
 .container1{
-    height: 950px;
+    padding: 50px;
+    /* height: 950px; */
     width: 100%;
     background: linear-gradient(dodgerblue,springgreen);
     display: flex;
@@ -101,7 +102,7 @@ font-family: 'Poppins', sans-serif;
 
 }
 .parent1{
-    height: 800px;
+    height: 790px;
     width: 40%;
     background-color: #0b2149;
     margin-top: 80px;
@@ -165,7 +166,7 @@ button:hover{
     margin-bottom: 15px;
 }
 .parent2{
-    height: 800px;
+   padding: 50px;
     width: 40%;
     background-color: white;
     margin-top: 80px;
@@ -258,10 +259,114 @@ color:green;
 
 
 
+.container1a{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    min-height: 100vh;
+       display: flex; 
+         display: none;  
+    align-items: center;
+    justify-content: center; 
+    position: fixed;
+     z-index: 1; 
+    top: 0;
+    left: 0;
+}
+
+.container2a{
+     height: 100vh; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    min-height: 100vh;
+       display: flex; 
+ display: none;   
+    align-items: center;
+    justify-content: center; 
+    position: fixed;
+     z-index: 1; 
+    top: 0;
+    left: 0;
+}
+.model1{
+  height: 140px;
+    width: 35%;
+    background-color: green;
+    
+}
+.model1 span{
+    margin-top: 10px;
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.model1 i{
+    margin-left: 50px;
+    font-size: 40px;
+    cursor: pointer;   
+}
+.model1 i:hover{
+    color: red;
+}
+
+.model1 button{
+    padding: 10px 20px 10px 20px;
+    margin-left: 80%;
+    margin-top: 40px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.model1m button a{
+    text-decoration: none;
+
+}
+
+
+.model1 h1{
+    padding-top: 12px;
+    margin-left: 25px;
+}
+.model1 button:hover{
+    color: white;
+    background-color: red;
+}
+
+
+.model2{
+    height: 130px;
+    width: 35%;
+    background-color: red;
+}
+.model2 button{
+    padding: 10px 20px 10px 20px;
+    margin-left: 75%;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.model2 button a{
+    text-decoration: none;
+
+}
+
+
+.model2 h2{
+    padding-top: 12px;
+    margin-left: 25px;
+    color: white;
+}
+.model2 button:hover{
+    color: white;
+    background-color: green;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Kalam&family=Poppins:ital,wght@1,200;1,300&display=swap');
-
-
 
 /* Container9 start */
 .container9{
@@ -403,6 +508,27 @@ font-family: 'Poppins', sans-serif;
     .container9{
         width: 1000px;
      }
+     .container1a{
+        height: 150vh;
+     }
+     .container2a{
+        height: 150vh;
+     }
+     .model1 span{
+        margin-top: 10px;
+        font-size: 29px;
+    }
+    .model1 i{
+        margin-top: 10px;
+        font-size: 29px;
+    }
+    .model1 button{
+      margin-top: 30px;
+    }
+    .model1{
+        width: 40%;
+    }
+
 }
 /* media query for tab screen* end */
 
@@ -443,14 +569,12 @@ font-family: 'Poppins', sans-serif;
         
     }
     .parent1{
-        height: 400px;
         width: 500px;
         margin-top: 80px;
         
     }
 
     .parent2{
-        height: 700px;
         width: 500px;
         margin: 0;
     }
@@ -472,6 +596,27 @@ font-family: 'Poppins', sans-serif;
     
         
         width: 720px;
+    }
+
+    .container1a{
+        height: 200vh;
+     }
+     .container2a{
+        height: 200vh;
+     }
+    .model1 span{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .model1 i{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .model1 button{
+      margin-top: 30px;
+    }
+    .model1{
+        width: 50%;
     }
 }
 /* media query for mobile screen end */

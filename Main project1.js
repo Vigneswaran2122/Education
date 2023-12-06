@@ -1,3 +1,17 @@
+
+
+let showbtn = document.getElementById("btn");
+let closebtn = document.getElementById("closebtn");
+let model = document.getElementById("container1");
+let model2 = document.getElementById("container2");
+ 
+let ClosePopup = () => {
+    model.style.display = "none";
+}
+let ClosePopup1 = () => {
+  model2.style.display = "none";
+}
+
 let id = (id) => document.getElementById(id);
 let classes = (classes) => document.getElementsByClassName(classes);
 let username = id("username"),
@@ -16,7 +30,7 @@ let username = id("username"),
 
     let engine = (id, serial, message) => {
         if (id.value.trim() === "") {
-        //   model2.style.display = "flex";
+          model2.style.display = "flex";
           errorMsg[serial].innerHTML = message;
           id.style.border = "2px solid red";
           
@@ -27,7 +41,7 @@ let username = id("username"),
           successIcon[serial].style.opacity = "0";
 
         } else {
-        //   model.style.display = "flex";
+          model.style.display = "flex";
            errorMsg[serial].innerHTML = "";
            id.style.border = "2px solid green";
            

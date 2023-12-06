@@ -92,22 +92,18 @@ nav{
 
 /* Container1 start */
 .container1{
-    height: 400px;
+    padding: 100px;
     width: 100%;
-    background-color: #b351c0;
-    
+    background-color: #7b2486;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 28px;
     color: white;
     text-align: center;
-    
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    
-
 }
 @keyframes example {
     0%   {background-color:skyblue;}
@@ -121,7 +117,7 @@ nav{
 
 /* container2 start */
 .container2{
-    height: 250px;
+   padding: 50px;
     width: 100%;
     text-align: center;
     background-color: white;
@@ -146,7 +142,7 @@ nav{
 /* container3 start */
 
 .container3{
-    height: 200px;
+   padding: 50px;
     width: 100%;
     background-color: #329a86;
     display: grid;
@@ -169,7 +165,7 @@ nav{
 
 /* container4 start */
 .container4{
-    height: 250px;
+   padding: 50px;
     width: 100%;
     text-align: center;
     background-color: white;
@@ -203,7 +199,7 @@ nav{
 
 /* container5 start */
 .container5{
-    height: 200px;
+    padding: 50px;
     width: 100%;
     background-color: #329a86;
     display: grid;
@@ -223,7 +219,7 @@ nav{
 
 /* container6 start */
 .container6{
-    height: 250px;
+   padding: 50px;
     width: 100%;
     text-align: center;
     background-color: white;
@@ -258,7 +254,7 @@ nav{
 
 /* container7 start */
 .container7{
-    height: 250px;
+  padding: 50px;
     width: 100%;
     text-align: center;
     background-color: #3a8ea2;
@@ -277,7 +273,7 @@ nav{
 
 /* Container9 start */
 .container9{
-    height: 680px;
+ padding-bottom: 30px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
@@ -410,7 +406,6 @@ font-family: 'Poppins', sans-serif;
     width: 920px;
     display: grid;
     grid-template-columns: auto auto  auto;
-    height: 380px;
 }
 .container4{
     width: 920px;
@@ -420,7 +415,6 @@ font-family: 'Poppins', sans-serif;
     width: 920px;
     display: grid;
     grid-template-columns: auto auto  auto;
-    height: 380px;
 }
 
 .container6{
@@ -476,7 +470,7 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
         display: grid;
         grid-template-columns: auto auto;
-        height: 400px;
+        /* height: 400px; */
     }
     
       .container4{
@@ -486,7 +480,7 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
         display: grid;
         grid-template-columns: auto auto;
-        height: 400px;
+        /* height: 400px; */
     }
 
     .container6{
