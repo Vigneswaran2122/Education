@@ -100,7 +100,6 @@ nav{
     align-items: center;
     font-size: 28px;
     color: white;
-    text-align: center;
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -122,7 +121,7 @@ nav{
 .container2{
    padding: 50px;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     background-color: white;
     line-height: 25px;
     display: flex;
