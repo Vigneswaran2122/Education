@@ -123,14 +123,13 @@ nav{
     width: 100%;
     background-color: white;
     line-height: 25px;
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; */
 }
 .container2c{
-    margin-left: 300px;
-    width: 49%;
+   
+    width: 50%;
 }
 .container2 h1{
     margin-bottom: 20px;
@@ -412,7 +411,6 @@ font-family: 'Poppins', sans-serif;
 
 .container2c{
     width: 78%;
-    margin-left: 60px;
 }
 .container3{
     width: 920px;
@@ -487,7 +485,7 @@ font-family: 'Poppins', sans-serif;
     }
     .container2c{
         width: 100%;
-        margin-left: 10px;
+        
     }
     .container3{
         width: 720px;
@@ -500,13 +498,13 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
       }  
       .container4c{
-        width: 80%;
+        width: 100%;
     }
       .container5{
         width: 720px;
         display: grid;
         grid-template-columns: auto auto;
-        /* height: 400px; */
+
     }
 
     .container6{
