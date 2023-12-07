@@ -98,7 +98,7 @@ nav{
     height: 560px;
     width: 40%;
     /* background-color: white; */
-    background: linear-gradient(rgba(119, 0, 255, 0.548),rgba(20, 3, 6, 0.856));
+    background: palevioletred;
     /* padding: 5px; */
     border-top-left-radius: 60px;
     
@@ -106,7 +106,7 @@ nav{
 
 .div2{
     padding-top: 22px;
-    height: 550px;
+    height: 560px;
     width: 40%;
     background-color: rgb(211, 195, 195);
     border-bottom-right-radius: 60px;
@@ -229,10 +229,7 @@ font-family: 'Poppins', sans-serif;
 
     
 }
-.container9:hover{
-    cursor: pointer;
-    background-color: orangered;
-}
+
 .box8{
     height: 450px;
     width: 200px;
@@ -300,9 +297,7 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     gap: 12px;
 }
-.parent4:hover{
-    background-color: orangered;
-}
+
 .parent4 i{
     color: white;
     font-size: 30px;
@@ -354,7 +349,6 @@ font-family: 'Poppins', sans-serif;
 
     .Overall{  
         width: 920px;
-        height: 600px;
         margin-top: 50px;
 
     }
@@ -407,7 +401,7 @@ font-family: 'Poppins', sans-serif;
     }
     
     .div1{
-        background: linear-gradient(blue,yellowgreen);
+        background: palevioletred;
         width: 500px;
 
     }
