@@ -187,13 +187,14 @@ nav{
 .container4:hover{
     background-color: lightgray;
     cursor: pointer;
+    
 }
 .container4 button{
     background-color: blue;
     color: white;
     margin-top: 12px;
-    height: 40px;
-    width: 250px;
+   height: 40px;
+   width: 180px;
     border: none;
 }
 .container4 button:hover{
@@ -228,9 +229,12 @@ nav{
     width: 100%;
     background-color: white;
     line-height: 25px;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+}
+.container6c{
+    width: 50%;
 }
 .container6:hover{
     background-color: deepskyblue;
@@ -245,7 +249,7 @@ nav{
     color: white;
     margin-top: 12px;
     height: 40px;
-    width: 250px;
+    width: 170px;
     border: none;
 }
 .container6 button:hover{
@@ -259,14 +263,15 @@ nav{
 .container7{
   padding: 50px;
     width: 100%;
-    text-align: center;
     background-color: #3a8ea2;
     line-height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     color: white;
+}
+.container7c{
+    width: 69%;
 }
 /* container7 end */
 
@@ -410,7 +415,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .container2c{
-    width: 78%;
+    width: 70%;
 }
 .container3{
     width: 920px;
@@ -434,9 +439,16 @@ font-family: 'Poppins', sans-serif;
 .container6{
     width: 920px;
 }
+.container6c{
+    width: 70%;
+}
 
 .container7{
     width: 920px;
+}
+
+.container7c{
+    width: 92%;
 }
 .container9{
     width: 920px;
@@ -491,7 +503,6 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
         display: grid;
         grid-template-columns: auto auto;
-        /* height: 400px; */
     }
     
       .container4{
@@ -510,11 +521,17 @@ font-family: 'Poppins', sans-serif;
     .container6{
         width: 720px;
     }
+    .container6c{
+        width: 100%;
+    }
     .container7{
         width: 720px;
-        
         font-size: 12px;
     }
+    .container7c{
+        width: 100%;
+    }
+
     .container9{
         width: 720px;
         display: flex;
