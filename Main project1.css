@@ -631,7 +631,7 @@ font-family: 'Poppins', sans-serif;
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: orangered;
+        background-color: steelblue;
         transition: all 0.7s ease-in-out;
     }
     .menu li {
@@ -741,7 +741,7 @@ font-family: 'Poppins', sans-serif;
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: orangered;
+        background-color: steelblue;
         transition: all 0.7s ease-in-out;
     }
     .menu li {
