@@ -432,7 +432,7 @@ font-family: 'Poppins', sans-serif;
 /* media query for tab screen end*/
 
 /* media query for mobile screen start */
-@media  only screen and (min-width:300px) and (max-width:500px) {
+@media  only screen and (min-width:250px) and (max-width:500px) {
    
     .menu{
         margin-top: 70px;
