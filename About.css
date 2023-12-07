@@ -179,6 +179,9 @@ nav{
     align-items: center;
 
 }
+.container4c{
+    width: 50%;
+}
 .container4 h1{
     margin-bottom: 20px;
 }
@@ -420,6 +423,10 @@ font-family: 'Poppins', sans-serif;
     width: 920px;
 }
 
+.container4c{
+    width: 70%;
+}
+
 .container5{
     width: 920px;
     display: grid;
@@ -492,6 +499,9 @@ font-family: 'Poppins', sans-serif;
       .container4{
         width: 720px;
       }  
+      .container4c{
+        width: 80%;
+    }
       .container5{
         width: 720px;
         display: grid;
