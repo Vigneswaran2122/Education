@@ -224,13 +224,11 @@ nav{
 .container6{
    padding: 50px;
     width: 100%;
-    text-align: center;
     background-color: white;
     line-height: 25px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: center; */
 }
 .container6:hover{
     background-color: deepskyblue;
