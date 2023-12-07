@@ -105,6 +105,9 @@ nav{
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+.container1c{
+    width: 70%;
+}
 @keyframes example {
     0%   {background-color:skyblue;}
     25%  {background-color: hotpink;}
@@ -126,6 +129,9 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.container2c{
+    width: 60%;
 }
 .container2 h1{
     margin-bottom: 20px;
@@ -399,8 +405,15 @@ font-family: 'Poppins', sans-serif;
 .container1{
     width: 920px;
 }
+.container1c{
+    width: 100%;
+}
 .container2{
     width: 920px;
+}
+
+.container2c{
+    width: 90%;
 }
 .container3{
     width: 920px;
@@ -463,8 +476,14 @@ font-family: 'Poppins', sans-serif;
     .container1{
         width: 720px;
     }
+    .container1c{
+        width: 100%;
+    }
     .container2{
         width: 720px;
+    }
+    .container2c{
+        width: 100%;
     }
     .container3{
         width: 720px;
