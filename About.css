@@ -121,16 +121,17 @@ nav{
 .container2{
    padding: 50px;
     width: 100%;
-    /* text-align: center; */
     background-color: white;
     line-height: 25px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 .container2c{
-    width: 60%;
+    margin-left: 300px;
+    width: 49%;
+    background-color: gold;
 }
 .container2 h1{
     margin-bottom: 20px;
@@ -412,7 +413,8 @@ font-family: 'Poppins', sans-serif;
 }
 
 .container2c{
-    width: 90%;
+    width: 78%;
+    margin-left: 60px;
 }
 .container3{
     width: 920px;
@@ -483,6 +485,7 @@ font-family: 'Poppins', sans-serif;
     }
     .container2c{
         width: 100%;
+        margin-left: 10px;
     }
     .container3{
         width: 720px;
