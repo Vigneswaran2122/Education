@@ -830,7 +830,7 @@ font-family: 'Poppins', sans-serif;
        
     }
     .head1{
-        width: 74%;
+       padding: 60px;
     }
     .head1 p{
         margin-top: 8px;
