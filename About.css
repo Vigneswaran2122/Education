@@ -131,7 +131,6 @@ nav{
 .container2c{
     margin-left: 300px;
     width: 49%;
-    background-color: gold;
 }
 .container2 h1{
     margin-bottom: 20px;
@@ -173,13 +172,11 @@ nav{
 .container4{
    padding: 50px;
     width: 100%;
-    text-align: center;
     background-color: white;
     line-height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 
 }
 .container4 h1{
