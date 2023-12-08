@@ -436,7 +436,8 @@ font-family: 'Poppins', sans-serif;
     cursor: pointer;
    }
    .box5a button:hover{
-         background-color: gray;
+         background-color: red;
+         color: white;
    }
   /* Container6 end */
 
@@ -631,7 +632,7 @@ font-family: 'Poppins', sans-serif;
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: steelblue;
+        background-color: rgb(211, 195, 195);;
         transition: all 0.7s ease-in-out;
     }
     .menu li {
