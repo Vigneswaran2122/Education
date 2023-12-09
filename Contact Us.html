@@ -34,7 +34,7 @@
             <div class="Overall">
                 <!-- div1 start -->
                 <div class="div1">
-                  <form>
+                  <form id="form">
                   <h3 class="f">Send us a message</h3>
                   <div class="name1">
                   <label for="name">Name:</label>
@@ -62,7 +62,7 @@
                 <i class="far fa-check-circle success-icon s3"></i>
                 <div class="error"></div>
           </div>
-                  <button> Send Message</button>
+                  <button  id="btn" type="submit" > Send Message</button>
                 </form>
                 </div>
 
@@ -147,7 +147,28 @@
                <i class="fa-brands fa-square-instagram"></i>
             </div>
            </div>
-            <!-- Container9 end -->
-        <script src="./Main project1.js"></script>
+          <!-- Container9 end -->
+
+
+
+
+<!--PopUp Container start-->
+<div class="container1a" id="container1">
+  <div class="model1">
+    <span>LOGIN SUCCESSFUL</span> 
+    <i class="fa-solid fa-xmark" onclick="ClosePopup()"   ></i>
+    <a href="https://www.khanacademy.org/profile/me/courses" target="_blank" ><button> OK</button></a>
+  </div>
+
+</div>
+
+<div class="container2a" id="container2">
+  <div class="model2">
+    <h2>PLEASE FILL ALL THE DETAILS </h2>
+    <button onclick="ClosePopup1()" id="closebtn"> OK</button>
+  </div>
+</div>
+<!--PopUp Container end-->
+        <script src="./Contact us.js"></script>
             </body>
         </html>
