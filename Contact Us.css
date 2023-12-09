@@ -148,10 +148,12 @@ form{
   input,textarea{
     width: 100%;
     padding: 10px;
+    padding-left: 40px;
     box-sizing: border-box;
     outline: none;
     resize: none;
     border: none;
+    padding: 10px 46px 10px 42px;
   
     border-bottom: 1px solid #D3D3D3;
   }
@@ -215,6 +217,64 @@ button{
 button:hover{
     box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
     cursor: pointer;
+}
+.name1{
+    position: relative;
+}
+.name1 .s1,.f1{
+    position: absolute;
+    top:44px;
+    right: -10px;
+    font-size: 22px;
+
+   
+}
+.name1 .fa-user{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    font-size: 22px;
+}
+.email1 .s2,.f2 {
+    position: absolute;
+    margin-left: -34px;
+    margin-top: 6px;
+    font-size: 22px;
+
+}
+
+.email1 .fa-envelope{
+    position: absolute;
+   padding-top: 6px;
+   margin-left: 10px;
+    font-size: 22px;
+}
+.message1 .s3,.f3{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -34px;
+    font-size: 22px;
+    
+}
+.message1 .fa-message{
+    position: absolute;
+   padding-top: 8px;
+   margin-left: 10px;
+    font-size: 22px;
+}
+.failure-icon,.error{
+    color: red;
+}
+.success-icon {
+color:green;
+}
+.error{
+    font-size: 14.5px;
+    margin-bottom: 25px;
+}
+.success-icon,.failure-icon{
+    right: 0;
+    opacity: 0;
 }
 
 /* Container9 start */

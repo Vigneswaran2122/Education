@@ -34,17 +34,34 @@
             <div class="Overall">
                 <!-- div1 start -->
                 <div class="div1">
-                    <form>
+                  <form>
                   <h3 class="f">Send us a message</h3>
+                  <div class="name1">
                   <label for="name">Name:</label>
+                  <i class="fas fa-user"></i>
                 <input type="text" id="name" placeholder="Enter the name">
-
+                <i class="fas fa-exclamation-circle failure-icon f1"></i>
+                <i class="far fa-check-circle success-icon s1"></i>
+                <div class="error"></div>
+              </div>
+ 
+              <div class="email1">
                 <label for="email">Email:</label>
+                <i class="fa-solid fa-envelope"></i>
                 <input type="text" id="email" placeholder="Enter the email">
-            
+                <i class="fas fa-exclamation-circle failure-icon f2"></i>
+                <i class="far fa-check-circle success-icon s2"></i>
+                <div class="error"></div>
+            </div>
+
+            <div class="message1">
                 <label for="message">Message:</label>
-                <textarea id="text" id="message" placeholder="Enter the message" rows="6"></textarea>
-                
+                <i class="fa-solid fa-message"></i>
+                <textarea id="text" id="message" placeholder="Enter the message" ></textarea>
+                <i class="fas fa-exclamation-circle failure-icon f3"></i>
+                <i class="far fa-check-circle success-icon s3"></i>
+                <div class="error"></div>
+          </div>
                   <button> Send Message</button>
                 </form>
                 </div>
