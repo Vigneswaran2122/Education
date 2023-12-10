@@ -95,7 +95,7 @@ nav{
 
 
 .div1{
-    height: 600px;
+    height: 630px;
     width: 500px;
     background-color:rgb(241, 145, 145);
     padding: 5px;
@@ -105,7 +105,7 @@ nav{
 
 .div2{
     padding-top: 22px;
-    height: 600px;
+    height: 630px;
     width: 500px;
     background-color: rgb(205, 238, 208);
     border-bottom-right-radius: 60px;
@@ -382,7 +382,7 @@ color:green;
 /* Container9 start */
 .container9{
     padding-top: 100px;
-    height: 960px;
+    height: 980px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
