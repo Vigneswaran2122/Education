@@ -115,23 +115,17 @@ nav{
 .Overall{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 80px 50px 80px 50px;
+    
     align-items: center;
-   /* height: 100vh; */
     width: 100%;
     margin-top: 60px;
     background: linear-gradient(violet,yellowgreen);
     font-family: 'Agdasima', sans-serif;
 font-family: 'Kalam', cursive;
 font-family: 'Poppins', sans-serif;
-
-
 }
-
-
-
 form{
-    
     width: 100%;
     padding: 40px;
     border-radius: 3px;
@@ -387,10 +381,12 @@ color:green;
 
 /* Container9 start */
 .container9{
-    height: 680px;
+    height: 860px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Agdasima', sans-serif;
 font-family: 'Kalam', cursive;
 font-family: 'Poppins', sans-serif;
@@ -415,7 +411,6 @@ font-family: 'Poppins', sans-serif;
 .parent3{
     height: 600px;
     width: 40%;
-    
     padding: 40px;
 }
 
@@ -459,7 +454,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .parent4{
-    height: 600px;
+    padding-top: 60px;
     width: 60%;
     background-color:#0b2149; ;
     display: flex;
@@ -516,7 +511,7 @@ font-family: 'Poppins', sans-serif;
 
     .Overall{  
         width: 920px;
-        /* margin-top: 50px; */
+      /* height: 700px; */
 
     }
     .container9{

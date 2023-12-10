@@ -88,8 +88,7 @@ nav{
 
 /* container1 start */
 .container1{
-    padding: 50px;
-    /* height: 950px; */
+    padding: 70px 50px 70px 50px;
     width: 100%;
     background: linear-gradient(dodgerblue,springgreen);
     display: flex;
@@ -370,7 +369,7 @@ color:green;
 
 /* Container9 start */
 .container9{
-    height: 680px;
+    height: 700px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
@@ -568,11 +567,10 @@ font-family: 'Poppins', sans-serif;
     .container1{
         width: 720px;
         display: flex;
-        flex-direction: column;
-        /* height: 1300px; */
-        
+        flex-direction: column;   
     }
     .parent1{
+        height: 350px;
         width: 500px;
         margin-top: 80px;
         
