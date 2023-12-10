@@ -569,7 +569,7 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
         display: flex;
         flex-direction: column;
-        height: 1300px;
+        /* height: 1300px; */
         
     }
     .parent1{
@@ -595,10 +595,10 @@ font-family: 'Poppins', sans-serif;
         display: flex;
         justify-content: center;
       }
+      .parent4 i{
+        margin-top: 370px;
+      }
     .parent3{
-    
-    
-        
         width: 720px;
     }
 
