@@ -381,7 +381,8 @@ color:green;
 
 /* Container9 start */
 .container9{
-    height: 860px;
+    padding-top: 100px;
+    height: 960px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
