@@ -115,8 +115,9 @@ nav{
 .Overall{
     display: flex;
     justify-content: center;
+    padding: 50px;
     align-items: center;
-   padding: 50px;
+   /* height: 100vh; */
     width: 100%;
     margin-top: 60px;
     background: linear-gradient(violet,yellowgreen);
@@ -515,10 +516,11 @@ font-family: 'Poppins', sans-serif;
 
     .Overall{  
         width: 920px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
 
     }
     .container9{
+
         width: 920px;
      }
      .container1a{
@@ -583,9 +585,6 @@ font-family: 'Poppins', sans-serif;
         display: flex;
         flex-direction: column;
         width: 720px;
-        height: 1100px;
-        
-
     }
     
     .div1{
