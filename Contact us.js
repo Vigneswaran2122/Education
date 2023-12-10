@@ -14,7 +14,7 @@ let id = (id) => document.getElementById(id);
 let classes = (classes) => document.getElementsByClassName(classes);
 let name1 = id("name"),
     email = id("email"),
-    mat = id("message"),
+    mess = id("mess"),
     form = id("form"),
     errorMsg = classes("error"),
     successIcon = classes("success-icon"),
@@ -24,7 +24,7 @@ let name1 = id("name"),
         e.preventDefault();
         engine(name1, 0, "Username cannot be blank");
         engine(email, 1, "Email cannot be blank");
-        engine(mat, 2, "Message cannot be blank");
+        engine(mess, 2, "Message cannot be blank");
     });
 
     let engine = (id, serial, message) => {

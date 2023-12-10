@@ -95,7 +95,7 @@ nav{
 
 
 .div1{
-    height: 560px;
+    height: 600px;
     width: 500px;
     background-color:rgb(241, 145, 145);
     padding: 5px;
@@ -105,7 +105,7 @@ nav{
 
 .div2{
     padding-top: 22px;
-    height: 560px;
+    height: 600px;
     width: 500px;
     background-color: rgb(205, 238, 208);
     border-bottom-right-radius: 60px;
@@ -198,7 +198,7 @@ i{
     padding: 0px 0px 80px 0px ;
 
 }
-button{
+.div1 button{
     margin-left: 30px;
     margin-top: 30px;
     color:#15f4ee;
@@ -208,7 +208,7 @@ button{
     border-radius: 20px;
     
 }
-button:hover{
+.div1 button:hover{
     box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
     cursor: pointer;
 }
@@ -304,7 +304,7 @@ color:green;
 }
 .model1{
   height: 140px;
-    width: 480px;
+    width: 620px;
     background-color: green;
     
 }
@@ -325,7 +325,7 @@ color:green;
 
 .model1 button{
     padding: 10px 20px 10px 20px;
-    margin-left: 80%;
+    margin-left: 84%;
     margin-top: 40px;
     cursor: pointer;
     border: none;
@@ -531,12 +531,13 @@ font-family: 'Poppins', sans-serif;
     .model1 i{
         margin-top: 15px;
         font-size: 29px;
+        margin-left: 80px;
     }
     .model1 button{
       margin-top: 40px;
     }
     .model1{
-        width: 40%;
+        width: 52%;
     }
     .model2 {
         width: 47%;
@@ -630,7 +631,7 @@ font-family: 'Poppins', sans-serif;
       margin-top: 40px;
     }
     .model1{
-        width: 50%;
+        width: 63%;
     }
     .model2 {
         width: 58%;
