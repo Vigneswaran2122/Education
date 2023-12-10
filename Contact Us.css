@@ -115,7 +115,7 @@ nav{
 .Overall{
     display: flex;
     justify-content: center;
-    padding: 140px 50px 140px 50px;
+    padding: 110px 50px 110px 50px;
     
     align-items: center;
     width: 100%;
@@ -382,7 +382,7 @@ color:green;
 /* Container9 start */
 .container9{
     padding-top: 100px;
-    height: 980px;
+    height: 950px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
