@@ -96,8 +96,8 @@ nav{
 
 .div1{
     height: 560px;
-    width: 40%;
-    background-color:indianred;
+    width: 500px;
+    background-color:rgb(241, 145, 145);
     padding: 5px;
     border-top-left-radius: 60px;
     
@@ -106,7 +106,7 @@ nav{
 .div2{
     padding-top: 22px;
     height: 560px;
-    width: 40%;
+    width: 500px;
     background-color: rgb(205, 238, 208);
     border-bottom-right-radius: 60px;
 }
@@ -262,7 +262,7 @@ button:hover{
     font-size: 22px;
 }
 .failure-icon,.error{
-    color: white;
+    color: red;
 }
 .success-icon {
 color:green;
@@ -273,6 +273,7 @@ color:green;
 }
 .success-icon,.failure-icon{
     opacity: 0;
+
 }
 
 .container1a{
@@ -308,7 +309,7 @@ color:green;
 }
 .model1{
   height: 140px;
-    width: 27%;
+    width: 480px;
     background-color: green;
     
 }
@@ -355,7 +356,7 @@ color:green;
 .model2{
     padding-top: 15px;
     height: 130px;
-    width: 31%;
+    width: 480px;
     background-color: red;
 }
 .model2 button{
@@ -480,45 +481,6 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* Container9 end */
-
-
-
-@media only screen and (min-width:1000px) and (max-width:1500px) {
-
-    .model1{
-        height: 140px;
-          width: 480px;
-          background-color: green;
-          
-      }
-      .model1 span{
-          margin-top: 10px;
-          color: white;
-          font-size: 35px;
-          margin-left: 15px;
-      }
-
-
-.model1 i{
-    margin-left: 70px;
-    font-size: 40px;
-    cursor: pointer;   
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media query for tab screen start*/
 @media only screen and (min-width:500px) and (max-width:920px) {

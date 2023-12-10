@@ -103,7 +103,7 @@ font-family: 'Poppins', sans-serif;
 }
 .parent1{
     height: 790px;
-    width: 40%;
+    width: 500px;
     background-color: #0b2149;
     margin-top: 80px;
     color: white;
@@ -167,7 +167,7 @@ button:hover{
 }
 .parent2{
    padding: 50px;
-    width: 40%;
+    width: 500px;
     background-color: white;
     margin-top: 80px;
     display: flex;
@@ -292,7 +292,7 @@ color:green;
 }
 .model1{
   height: 140px;
-    width: 35%;
+    width: 490px;
     background-color: green;
     
 }
@@ -339,7 +339,7 @@ color:green;
 .model2{
     padding-top: 15px;
     height: 130px;
-    width: 31%;
+    width: 490px;
     background-color: red;
 }
 .model2 button{
@@ -465,37 +465,6 @@ font-family: 'Poppins', sans-serif;
 
 
 /* media query for tab screen start*/
-
-
-
-@media only screen and (min-width:1000px) and (max-width:1500px) {
-
-    .model1{
-        height: 140px;
-          width: 500px;
-          background-color: green;
-          
-      }
-      .model1 span{
-          margin-top: 10px;
-          color: white;
-          font-size: 35px;
-          margin-left: 15px;
-      }
-
-
-
-.model1 i{
-    margin-left: 70px;
-    font-size: 40px;
-    cursor: pointer;   
-}
-}
-
-
-
-
-
 
 @media only screen and (min-width:550px) and (max-width:1000px) {
     
