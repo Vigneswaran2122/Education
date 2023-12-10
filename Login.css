@@ -466,7 +466,7 @@ font-family: 'Poppins', sans-serif;
 
 /* media query for tab screen start*/
 
-@media only screen and (min-width:550px) and (max-width:1000px) {
+@media only screen and (min-width:550px) and (max-width:920px) {
     
     .menu {
         margin-top: 70px;
