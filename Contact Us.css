@@ -381,8 +381,9 @@ color:green;
 
 /* Container9 start */
 .container9{
+    padding-bottom: 30px;
     padding-top: 100px;
-    height: 950px;
+    height: 1000px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
@@ -423,7 +424,7 @@ font-family: 'Poppins', sans-serif;
 }
 .parent3 h4{
     margin-top: 35px;
-    margin-bottom: 200px;
+    margin-bottom: 450px;
     font-size: 20px;
     color: #8295ba;
 }
@@ -464,7 +465,7 @@ font-family: 'Poppins', sans-serif;
 .parent4 i{
     color: white;
     font-size: 30px;
-    margin-top: 550px;
+    margin-top: 700px;
     margin-right: 20px;
 }
 
