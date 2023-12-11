@@ -602,7 +602,6 @@ font-family: 'Poppins', sans-serif;
      }
 
      .parent4{
-        margin-top: 100px;
         width: 720px;
         display: flex;
         justify-content: center;
@@ -612,7 +611,7 @@ font-family: 'Poppins', sans-serif;
         width: 720px;
     }
     .parent4 i{
-        margin-top: 370px;
+        margin-top: 500px;
       }
 
     .container1a{

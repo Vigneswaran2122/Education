@@ -371,7 +371,7 @@ color:green;
 /* Container9 start */
 .container9{
     padding-top: 100px;
-    padding-bottom:200px;
+    padding-bottom:100px;
     width: 100%;
     background-color: #0b2149;
     display: flex;
@@ -595,7 +595,7 @@ font-family: 'Poppins', sans-serif;
         justify-content: center;
       }
       .parent4 i{
-        margin-top: 370px;
+        margin-top: 530px;
       }
     .parent3{
         width: 720px;
