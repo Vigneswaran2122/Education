@@ -573,7 +573,7 @@ font-family: 'Poppins', sans-serif;
           color: white;
     }
     .parent3{
-        height: 700px;
+        height: 720px;
         width: 40%;
         padding: 40px;
     }
@@ -898,7 +898,8 @@ font-family: 'Poppins', sans-serif;
     .parent3{ 
        width: 656px;
     }
-
+    
+     
 
       }
 /* media query for mobile screen end */
