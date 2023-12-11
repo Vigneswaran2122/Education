@@ -526,7 +526,7 @@ font-family: 'Poppins', sans-serif;
         
     }
     .parent4{
-        height: 600px;
+        height: 680px;
         width: 60%;
         
         display: flex;
@@ -552,7 +552,7 @@ font-family: 'Poppins', sans-serif;
 
     /* Container9 start */
     .container9{
-       padding-bottom: 250px;
+       padding-bottom: 220px;
         width: 100%;
         background-color: #0b2149;
         display: flex;
@@ -573,7 +573,7 @@ font-family: 'Poppins', sans-serif;
           color: white;
     }
     .parent3{
-        height: 600px;
+        height: 650px;
         width: 40%;
         
         padding: 40px;
