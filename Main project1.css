@@ -302,7 +302,7 @@ font-family: 'Poppins', sans-serif;
     background-color: white;
     animation-name: example;
     animation-duration: 5s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 
    }
 
@@ -658,7 +658,7 @@ font-family: 'Poppins', sans-serif;
         grid-template-columns: auto auto;
         margin-top: 40px;
         width: 919px;
-        background-color: goldenrod;
+        /* background-color: goldenrod; */
        
     }
 
@@ -669,40 +669,40 @@ font-family: 'Poppins', sans-serif;
 
     .heading1{
         width: 919px;
-        background-color: deeppink;
+        /* background-color: deeppink; */
     }
     .container3{
         width: 919px;
         display: grid;
         grid-template-columns: auto auto;
-        background-color: deeppink;
+        /* background-color: deeppink; */
        
     }
     .heading2{
         width: 919px;
-        background-color: coral;
+        /* background-color: coral; */
     }
 
     .container4{
         display: grid;
         grid-template-columns: auto auto;
         width: 919px;
-        background-color: coral;
+        /* background-color: coral; */
     }
     .container5{
         
         width: 919px;
-        background-color: plum;
-        
+        /* background-color: plum;
+         */
     }
     
     .box4{
-        background-color: plum;
+        /* background-color: plum; */
     }
 
  .container6{
     width: 919px;
-    background-color: springgreen;
+    /* background-color: springgreen; */
 
  }
  .container7{
@@ -712,15 +712,15 @@ font-family: 'Poppins', sans-serif;
     width: 919px;
     display: grid;
     grid-template-columns: auto auto;
-    background-color: navajowhite;
+    /* background-color: navajowhite; */
  }
  .heading3{
     width: 919px;
-    background-color: navajowhite;
+    /* background-color: navajowhite; */
  }
  .container9{
     width:919px;
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
  }
 } 
 /* media query for tab screen end*/
@@ -771,13 +771,13 @@ font-family: 'Poppins', sans-serif;
         align-items: center;
         margin-top: 40px;
         width: 656px;
-       background-color: hotpink;
+       /* background-color: hotpink; */
 
     }
 .heading2{
     width: 656px;
     height: 160px;
-    background-color: orange;
+    /* background-color: orange; */
 }
     .child2{
         width: 656px;
@@ -786,7 +786,7 @@ font-family: 'Poppins', sans-serif;
 
     .heading1{
         width: 656px;
-        background-color: limegreen;
+        /* background-color: limegreen; */
         
     } 
     .container3{
@@ -794,7 +794,7 @@ font-family: 'Poppins', sans-serif;
         display: grid;
         grid-template-columns: auto;
         /* height: 1500px; */
-        background-color: limegreen;
+        /* background-color: limegreen; */
         
     }
     .box2{
@@ -808,7 +808,7 @@ font-family: 'Poppins', sans-serif;
         display: grid;
         grid-template-columns: auto;
         height: 1900px;
-        background:linear-gradient(orange,deeppink);
+        /* background:linear-gradient(orange,deeppink); */
         
     }
     .container5{
@@ -818,20 +818,9 @@ font-family: 'Poppins', sans-serif;
         justify-content: center;
         align-items: center;
         /* height: 800px; */
-        background:linear-gradient(pink, green);
+        /* background:linear-gradient(pink, green); */
     }
-    /* .box5a{
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        line-height: 28px;
-        align-items: center;
-        
-        margin-bottom: 20px;
-        border-radius: 20px;
-       
-    }
-     */
+   
     .head1 p{
         margin-top: 8px;
     }
@@ -886,7 +875,7 @@ font-family: 'Poppins', sans-serif;
        width: 656px;
         display: flex;
         flex-direction: column;
-        background:linear-gradient(crimson,darkorchid);
+        /* background:linear-gradient(crimson,darkorchid); */
         /* height: 1200px; */
       }
          
