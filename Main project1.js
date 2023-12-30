@@ -60,8 +60,8 @@ let username = id("username"),
           
           
           //icons
-          failureIcon[serial].style.opacity = "1";
-          successIcon[serial].style.opacity = "0";
+          failureIcon[serial].style.visibility = "visible";
+          successIcon[serial].style.visibility = "hidden";
           openEye[serial].style.opacity="0";
            closeEye[serial].style.opacity="0";
 
@@ -72,8 +72,8 @@ let username = id("username"),
            
 
            //icons
-          failureIcon[serial].style.opacity = "0";
-          successIcon[serial].style.opacity = "1";
+          failureIcon[serial].style.visibility = "hidden";
+          successIcon[serial].style.visibility = "visible";
           openEye[serial].style.opacity="0";
            closeEye[serial].style.opacity="0";
 
