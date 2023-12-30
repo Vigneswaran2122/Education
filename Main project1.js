@@ -5,6 +5,27 @@ let closebtn = document.getElementById("closebtn");
 let model = document.getElementById("container1");
 let model2 = document.getElementById("container2");
  
+
+
+let HidePass = document.getElementById("Hide");
+let ShowPass = document.getElementById("Show");
+
+let HidePassword  = () => {
+   if(password.type == "password"){
+    password.type = "text";
+    HidePass.style.visibility="hidden";
+    ShowPass.style.visibility="visible"
+   } 
+}
+
+let ShowPassword = () => {
+    if(password.type = "password"){
+        HidePass.style.visibility="visible";
+        ShowPass.style.visibility="hidden";
+     
+    } 
+ }
+
 let ClosePopup = () => {
     model.style.display = "none";
 }
@@ -21,7 +42,9 @@ let username = id("username"),
     errorMsg = classes("error"),
     successIcon = classes("success-icon"),
     failureIcon = classes("failure-icon");
-   
+    openEye = classes("fa-eye");
+    closeEye = classes("fa-eye-slash");
+
     form.addEventListener("submit", (e) => {
         e.preventDefault();
         engine(username, 0, "Username cannot be blank");
@@ -39,6 +62,8 @@ let username = id("username"),
           //icons
           failureIcon[serial].style.opacity = "1";
           successIcon[serial].style.opacity = "0";
+          openEye[serial].style.opacity="0";
+           closeEye[serial].style.opacity="0";
 
         } else {
           model.style.display = "flex";
@@ -49,6 +74,8 @@ let username = id("username"),
            //icons
           failureIcon[serial].style.opacity = "0";
           successIcon[serial].style.opacity = "1";
+          openEye[serial].style.opacity="0";
+           closeEye[serial].style.opacity="0";
 
         }
     }

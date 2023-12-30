@@ -234,13 +234,16 @@ input{
     position: relative;
 }
 
-
 .f1 .failure-icon,.success-icon {
     position: absolute;
     top:35px;
     left: 378px;
 }
-
+.f1 .fa-eye-slash,.fa-eye{
+    position: absolute;
+    top:35px;
+    left: 358px;
+}
 
 .failure-icon,.error{
     color: red;
@@ -255,6 +258,7 @@ color:green;
 .success-icon,.failure-icon{
     right: 0;
     opacity: 0;
+    
 }
 
 
